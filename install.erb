@@ -19,7 +19,7 @@ vc_password = <%= broker[:vc_password] %>
  
 # ESX(i) credentials using encoded base64 password
 host_username = "root"
-host_password = <%= node[:root_password] %>
+host_password = <%= node.metadata[:root-password] %>
  
 # vCenter mob URL for findByInventoryPath
 url = "https://" + vcenter_server + "/mob/?moid=SearchIndex&method=findByInventoryPath"
