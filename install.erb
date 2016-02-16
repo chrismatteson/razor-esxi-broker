@@ -8,10 +8,10 @@ python - <<END
 import sys,re,os,urllib,urllib2,base64,syslog,socket
 
 # vCenter server
-vcenter_server = <%= broker[:vcenter_server] %>
+vcenter_server = <%= broker[:vc_server] %>
  
 # vCenter Cluster path
-cluster = <%= broker[:vcenter_cluster] %>
+cluster = <%= broker[:vc_cluster] %>
  
 # vCenter credentials using encoded base64 password
 vc_username = <%= broker[:vc_username] %>

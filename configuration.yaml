@@ -1,8 +1,8 @@
 ---
-vcenter_server:
+vc_server:
   description: "The vCenter server to add the ESXi host to"
   required: true
-vcenter_cluster:
+vc_cluster:
   description: "The vCenter Cluster path"
 vc_username:
   description: "The username to authenticate with vcenter"
